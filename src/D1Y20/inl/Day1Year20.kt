@@ -1,4 +1,4 @@
-package D1Y20
+package D1Y20.inl
 
 import java.io.File
 
