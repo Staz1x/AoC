@@ -48,7 +48,7 @@ fun part2(input: List<String>) {
 
 fun main() {
 
-    val input = File("src/D2Y21/inputD2Y21").readText().split(" ", "," , "\n")
+    val input = File("src/D2Y21/inl/inputD2Y21").readText().split(" ", "," , "\n")
     part1(input)
     part2(input)
 

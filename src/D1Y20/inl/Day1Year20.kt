@@ -48,7 +48,7 @@ fun part2(input: List<Int>) {
 //New first
 fun newPart1() : Int {
     var solution = 0
-    val input2 = File("src/D1Y20/inputD1Y20").readLines().map { it.toInt() }
+    val input2 = File("src/D1Y20/inl/inputD1Y20").readLines().map { it.toInt() }
     for (a in input2) for (b in input2) if (a + b == 2020) solution = (a * b)
     return solution
 }
@@ -56,13 +56,13 @@ fun newPart1() : Int {
 //New second
 fun newPart2() : Int {
     var solution = 0
-    val input2 = File("src/D1Y20/inputD1Y20").readLines().map { it.toInt() }
+    val input2 = File("src/D1Y20/inl/inputD1Y20").readLines().map { it.toInt() }
     for (a in input2) for (b in input2) for (c in input2) if (a + b + c == 2020) solution = (a * b * c)
     return solution
 }
 
 fun main() {
-    val input = File("src/D1Y20/inputD1Y20").readLines().map { it.toInt() }
+    val input = File("src/D1Y20/inl/inputD1Y20").readLines().map { it.toInt() }
 
     part1(input)
     part2(input)

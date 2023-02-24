@@ -42,7 +42,7 @@ fun main() {
         return depthCounter(mutableInput);
     }
 
-    val input = File("src/D1Y21/inputD1Y21").readLines()
+    val input = File("src/D1Y21/inl/inputD1Y21").readLines()
     println("${depthCounter(input)}")
     println("${depthCounter2(input)}")
     println("------------------------")
